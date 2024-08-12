@@ -16,7 +16,7 @@ const Header = () => {
     <div className="flex p-4 items-center justify-between bg-secondary shadow-md">
       <div className="flex gap-2 items-center">
         <Image src={"/logo.svg"} width={40} height={20} alt="main logo" />
-        <p className="font-bold text-lg text-primary">AIIM</p>
+        <p className="font-bold text-lg text-primary">AI Mocker</p>
       </div>
 
       <ul className="hidden md:flex gap-6 text-sm">
@@ -28,7 +28,7 @@ const Header = () => {
         >
           Dashboard
         </li>
-        <Link href={"https://jcmisa-portfolio.vercel.app/"} target="_blank">
+        <Link href={"https://aman-portfolio-omega.vercel.app/"} target="_blank">
           <li
             className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${
               path === "/dashboard/questions" && "text-primary font-bold"
